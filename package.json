@@ -1,35 +1,45 @@
 {
-  "name": "node-pathfinding",
-    "version": "0.2.6",
-    "description": "a Node.JS implementation for AStar path finding algorithm. This implementation uses primitive data types (Number and Byte/Buffer) to present location and block data that significantly improve the speed and have a good control on memory consumption",
-    "homepage": "https://github.com/yi/node-path-finding",
-    "keywords": ["algorithm", "game", "astar", "grid", "movement", "multiplayer", "pathfinding" ],
-    "author": {
-      "name": "yi",
-      "email": "yi2004@gmail.com",
-      "url": "https://github.com/yi"
-    },
-    "main": "./index.js",
-    "dependencies": {},
-    "devDependencies": {
-      "memwatch": ">=0"
-    },
-    "engines": {
-      "node": ">=0.8.0"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/yi/node-path-finding.git"
-    },
-    "licenses": [
+  "name": "adain-node-pathfinding",
+  "version": "0.2.6",
+  "description": "a Node.JS implementation for AStar path finding algorithm. This implementation uses primitive data types (Number and Byte/Buffer) to present location and block data that significantly improve the speed and have a good control on memory consumption",
+  "homepage": "https://github.com/ADAIN/node-path-finding",
+  "keywords": [
+    "algorithm",
+    "game",
+    "astar",
+    "grid",
+    "movement",
+    "multiplayer",
+    "pathfinding"
+  ],
+  "author": {
+    "name": "adain",
+    "email": "jsy@adain.kr",
+    "url": "https://github.com/adain"
+  },
+  "main": "./index.js",
+  "dependencies": {
+    "buffer": "^5.0.6"
+  },
+  "devDependencies": {
+    "memwatch": ">=0"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ADAIN/node-path-finding"
+  },
+  "licenses": [
     {
       "type": "MIT",
       "url": "http://opensource.org/licenses/mit-license.php"
     }
   ],
-    "readmeFilename": "README.md",
-    "scripts": {
-      "test": "node tests/sync_astar_continue_test.js "
-    },
-    "license": "MIT"
+  "readmeFilename": "README.md",
+  "scripts": {
+    "test": "node tests/sync_astar_continue_test.js "
+  },
+  "license": "MIT"
 }
